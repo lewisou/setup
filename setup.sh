@@ -34,7 +34,8 @@ fi
 if [ -d .emacs.d/ ]; then
     mv .emacs.d .emacs.d~
 fi
-git clone https://github.com/lewisou/dotfiles.git
+
+git clone git@github.com:lewisou/dotfiles.git
 
 ln -sb dotfiles/.screenrc .
 ln -sb dotfiles/.bash_profile .
